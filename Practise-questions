@@ -1,0 +1,20 @@
+Practise question for k8s 
+
+1. create a pod name gol using nginx:alpine image.
+2. Create a pod named pod-2 using  image redis with label name=pod-2.
+3. Create a pod with name nginx and image nginx and expose it on port 8080.
+
+Question related to replicaset
+
+1. Create a replicaset named nemo with image nginx with replicas 1.
+2. Scale the nemo to 5 pod.
+3. Delete one of the pod.
+4. Delete replica set.
+
+Question related to Namespace
+
+1. Create a  namespace my-first-ns.
+2. Create a pod with name skates with image nginx in above namespace.
+3. Count all pods in all namespaces.
+4. permanently switch the namespace to my-first-ns.
+5. 
