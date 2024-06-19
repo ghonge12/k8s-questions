@@ -1,15 +1,23 @@
-kubectl command to  create a pod in imperative way.
+command to  create a pod in imperative way.
 
 --------> kubectl run <pod-name> --image=<image-name:tag> --restart=Never
 
-kubectl command to show pod labels
+command to show pod labels
 
 --------> kubectl get po -n <namespace> --show-labels
 
-kubectl command to add labels in a pod in imperative way.
+command to add labels in a pod in imperative way.
 
 -------->  kubectl run <pod-name> --image=<image-name:tag> -l name=pod-2 --restart=Never
 
-kubectl command to expose the pod on port 8080
+command to expose the pod on port 8080
 
---------> kubectl run nginx --image=<>image-name:tag> --port 8080 --restart=Never
+kubectl run nginx --image=<>image-name:tag> --port 8080 --restart=Never
+
+command to see the full pod details 
+
+-------->kubectl get po -o wide 
+
+command to get all the pods with similar label
+
+---------> kubectl get po --selector=<label>
