@@ -17,4 +17,26 @@ Question related to Namespace
 2. Create a pod with name skates with image nginx in above namespace.
 3. Count all pods in all namespaces.
 4. permanently switch the namespace to my-first-ns.
-5. 
+
+
+Questions related to labels and selectors 
+
+1. Create a pod mypod and schedule this pod manually
+2. Reschedule this pod to another node.
+3. Creat two pod and  label it with colour: blue.
+4. select all pod labeled with colour: blue using selector keyword
+
+
+Questions rerlated to taints and tolerations 
+
+1. Taint the node with NoSchedule taint effect and apply run: mypod as key, value.
+2. Create a pod named test and see in which node it got schedule.
+3. Create a pod and add toleration to it.
+         key: "key1"
+         operator: "Equal"
+         value: "value1"
+         effect: "NoSchedule"
+4. Remove taint effect from the node
+
+
+
