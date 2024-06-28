@@ -60,5 +60,6 @@ Find out which pods are available with the label in the cluster
 Create a pod that will only be scheduled on a node with a specific label
 Remove the taint added to the node
 Schedule a pod on the node by using tolerations
+Create a replicaset which has 3 replicas
 
 
