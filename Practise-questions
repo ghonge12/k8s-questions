@@ -40,3 +40,25 @@ Questions rerlated to taints and tolerations
 
 
 
+
+
+
+----------------------------------------------------------------------------------------
+
+Basic questions:
+
+Create a pod in a namespace
+Create a pod and expose it
+Upgrade a deployment by using rolling update
+Create a pod with a command
+Taint a node to be unschedulable
+List all the internal IP's of all the nodes in the cluster
+Create a secret and mount it to the pod
+Show the logs from the container
+Overwrite the label of the pod with a value
+Find out which pods are available with the label in the cluster
+Create a pod that will only be scheduled on a node with a specific label
+Remove the taint added to the node
+Schedule a pod on the node by using tolerations
+
+
